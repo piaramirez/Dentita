@@ -1,0 +1,7 @@
+Options -Indexes 
+RewriteEngine On
+
+# Redirigir todas las solicitudes que no corresponden a archivos existentes o directorios existentes a index.php
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*?)/?$ index.php?url=$1 [QSA,L]

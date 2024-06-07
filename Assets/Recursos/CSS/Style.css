@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primario: #D3D3D3;
+}
+body{
+    background-color: var(--primario);
+}
+
+/******************************************************************************************
+*********** USUARIOS *********************************************************************/
+/** Formularios crea usuarios*/
+.areaCrearUsuarios{
+   width: 96%;
+   margin: 10px auto;
+   display: flex;
+   flex-wrap: wrap;
+}
+.Barralateral{
+    width: 25%;
+    background-color: antiquewhite;
+}
+.formulariosUsuarios{
+    width: 75%;
+    background-color: white;
+}
