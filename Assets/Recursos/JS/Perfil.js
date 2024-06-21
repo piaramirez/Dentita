@@ -37,7 +37,15 @@ menuContraer.addEventListener('click', function(){
     barraLateral.classList.toggle('barraContraida');
 });
 
+/**
+ * Función para mostrar los datos de las citas del día
+ */
+let felcha = document.getElementById('flechaDatosPerfil');
+let mContenido = document.getElementById('mostrarContedidoCitasHoy');
 
+felcha.addEventListener('click', function(){
+    alert('Mostrar citas del día');
+});
 
 
 function openModal() {

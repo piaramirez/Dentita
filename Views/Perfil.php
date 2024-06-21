@@ -24,27 +24,90 @@
         <div class="proximaCitas">
             <div class="contenidoEstructura">
                 <div class="cajaPerfil">
-                    <h1>Hola</h1>
+                    <div class="barraEstructura">
+                        <h1>Próxima cita</h1>
+                    </div>
+                    <div class="recuadroinfo">
+                        <p>19 de Julio del 2024 </p>
+                        <p>14:00 pm</p>
+                        <div class="barraBoton">
+                            <p>Citas agendadas (4)</p>
+                            <img src="<?php echo media(); ?>flechaAbajo.png" alt="Flecha hacia abajo" id="flechaDatosPerfil">
+                        </div>
+                    </div>   
                 </div>
                 <div class="cajaPerfil">
                    <div class="cards">
                         <div class="cardHeader">
                             <img src="<?php echo media(); ?>naruto.png" alt="">
+                          
                         </div>
-                    <div class="cbpInfo">
-                       <div>Uzumaki Naruto</div>
-                       <div>5:00 pm</div>
-                       <div>Seguimiento</div>
-                       <div>Pendiete</div>
-                       <div>ir a consulta</div>
-
-                    </div>
+                        <div class="cardBody">
+                            <div>
+                                <p>Nombre: </p>
+                                <p>Uzumaki Naruto</p>
+                            </div>
+                            <div>
+                                <p>Día: </p>
+                                <p>15 Julio 2024</p>
+                            </div>
+                            <div>
+                                <p>Hora:</p>
+                                <p>14:00 pm</p>
+                            </div>
+                            <div>
+                                <p>Motivo:</p>
+                                <p>Seguimiento a consulta</p>
+                            </div>
+                            <div>
+                                <p>En proceso</p>
+                            </div>
+                            <div class="">
+                                <button>Hola</button>
+                            </div>
+                        </div>
                    </div>
-                </div>
-                
-               
+             </div>                        
             </div>
-            barra para ver en cuadto o lista
+            <div class="mostrarContedidoCitasHoy" id="mostrarContedidoCitasHoy">
+                <h2>Agenda de hoy:</h2>
+               <div class="tablaCitasProgramadas">
+                     <table class="tablePerfil">
+                          <thead>
+                            <tr>
+                                 <th>Nombre</th>
+                                 <th>Fecha</th>
+                                 <th>Hora</th>
+                                 <th>Motivo</th>
+                                 <th>Estado</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                                 <td>Uzumaki Naruto</td>
+                                 <td>15 Julio 2024</td>
+                                 <td>14:00 pm</td>
+                                 <td>Seguimiento a consulta</td>
+                                 <td>En proceso</td>
+                            </tr>
+                            <tr>
+                                 <td>Sasuke Uchiha</td>
+                                 <td>15 Julio 2024</td>
+                                 <td>18:00 pm</td>
+                                 <td>Consulta general</td>
+                                 <td>En proceso</td>
+                            </tr>
+                            <tr>
+                                 <td>Orochimaru</td>
+                                 <td>15 Julio 2024</td>
+                                 <td>12:00 pm</td>
+                                 <td>Endodonce</td>
+                                 <td>En proceso</td>
+                            </tr>
+                          </tbody>
+                     </table>
+               </div>
+            </div>
         </div>
         <div class="ultimoExpediente">
             En esta área van los últimos expedientes
