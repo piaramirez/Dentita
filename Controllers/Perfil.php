@@ -27,7 +27,7 @@ class Perfil extends Controllers{
     public function CrearUsuarios($parametros){
         //echo "sub-método CrearUsuarios";
         $data['tag_page'] = "Usuarios";
-        $this->view->getView($this, "CrearUsuarios", $data);
+        require_once 'Views/CrearUsuarios.php';
     }
 
 }

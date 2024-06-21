@@ -1,17 +1,50 @@
 
 <div class="areaCrearUsuarios" >
-    <div class="Barralateral">
-        <div class="BotonCrearUsuarios" id="BotonCrearUsuarios">
-            <p>Ver Todos los usuarios</p>
-        </div>
-        <div class="BotonModificarUsuarios" id="BotonModificarUsuarios">
-            <p>Buscar Usuarios</p>
-        </div>
-        <div class="BotonEliminarUsuarios" id="BotonEliminarUsuarios">
-            <p>Buscar folio</p>
-        </div>
-    </div>
+    
     <form class="formulariosUsuarios" id="formulariosUsuarios">
-        usu
+        <div class="barraFormulario">
+            <div>
+            <p>Slecciones un tol</p>
+                <select name="" id="">
+                    <option value="">Debd</option>
+                </select>
+            </div>
+            <div>
+                <p>Folio</p>
+                <input type="text" placeholder="Folio">
+            </div>
+
+        </div>
+        <div class="contenidoFormulario">
+            <div class="grupContenidoForm">
+                <label for="">Nombre</label>
+                <input type="text" name="" id="">
+            </div>
+            <div class="grupContenidoForm">
+                <label for="">Apellido</label>
+                <input type="text" name="" id="">
+            </div>
+            <div class="grupContenidoForm">
+                <label for="">Edad</label>
+                <input type="text" name="" id="">
+            </div>
+            <div class="grupContenidoForm">
+                <label for="">Alergias</label>
+                <select name="" id="">
+                    <option value="">Sí</option>
+                    <option value="">No</option>
+                </select>
+            </div>
+            <div class="grupContenidoForm">
+                <label for="">Correo</label>
+                <input type="text" name="" id="">
+            </div>
+            
+            <div class="grupContenidoForm">
+                <label for="">Correo</label>
+                <input type="text" name="" id="">
+            </div>
+        </div>
     </form>
+</div>
 </div>

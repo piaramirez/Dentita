@@ -14,10 +14,10 @@ class Views{
            // echo "esta es la vista:".$view." </br>";
             $view = "Views/".$view.".php";
             //echo "esta es la vista:".$view." </br>";
-        }else if($controller == "CrearUsuarios"){
-           
+        }else if($controller == "Login"){
+           // echo "esta es la vista:".$view." </br>";
             $view = "Views/".$view.".php";
-            //echo "esta es la vista:".$view." </br>";
+           
         }else{
             $view = "Views/".$controller."/".$view.".php";
         }
