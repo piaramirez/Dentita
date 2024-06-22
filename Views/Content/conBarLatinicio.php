@@ -1,7 +1,7 @@
 <li class="liOpciones">
     <div class="" id="BotonCrearUsuarios">
-        <img src="<?php echo media(); ?>citaus.png" alt="">
-        <p>Nueva cita:</p>
+       <a href="Perfil/NuevaCita"><img src="<?php echo media(); ?>citaus.png" alt="">
+        <p>Nueva cita:</p></a> 
     </div>
 </li>
 <li class="liOpciones">

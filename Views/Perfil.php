@@ -28,7 +28,7 @@
                         <h1>Próxima cita</h1>
                     </div>
                     <div class="recuadroinfo">
-                        <p>19 de Julio del 2024 </p>
+                        <p>15 de Julio del 2024 </p>
                         <p>14:00 pm</p>
                         <div class="barraBoton">
                             <p>Citas agendadas (4)</p>
@@ -62,8 +62,8 @@
                             <div>
                                 <p>En proceso</p>
                             </div>
-                            <div class="">
-                                <button>Hola</button>
+                            <div class="cardFooter">
+                                <a href="">Consultorio</a>
                             </div>
                         </div>
                    </div>
@@ -79,7 +79,7 @@
                                  <th>Fecha</th>
                                  <th>Hora</th>
                                  <th>Motivo</th>
-                                 <th>Estado</th>
+                                 <th></th>
                             </tr>
                           </thead>
                           <tbody>
@@ -88,21 +88,21 @@
                                  <td>15 Julio 2024</td>
                                  <td>14:00 pm</td>
                                  <td>Seguimiento a consulta</td>
-                                 <td>En proceso</td>
+                                <td>  <a href="">Consultorio</a></td>
                             </tr>
                             <tr>
                                  <td>Sasuke Uchiha</td>
                                  <td>15 Julio 2024</td>
                                  <td>18:00 pm</td>
                                  <td>Consulta general</td>
-                                 <td>En proceso</td>
+                                 <td>  <a href="">Consultorio</a></td>
                             </tr>
                             <tr>
                                  <td>Orochimaru</td>
                                  <td>15 Julio 2024</td>
                                  <td>12:00 pm</td>
                                  <td>Endodonce</td>
-                                 <td>En proceso</td>
+                                 <td>  <a href="">Consultorio</a></td>
                             </tr>
                           </tbody>
                      </table>
@@ -110,12 +110,53 @@
             </div>
         </div>
         <div class="ultimoExpediente">
-            En esta área van los últimos expedientes
+            <h2>Expediente más reciente: </h2>
+           <div class="contenidoEstructuraExpedienteReciente">
+                <div class="cajaRecientePerfil">
+                    <div class="barraEstructura">
+                    <h3>Exp. de consultas</h3>
+                    </div>
+                    <p>En este apartado pordrá encontrar los expedientes de los pacientes que tiene el día de hoy.</p>
+                    <div class="tablaCitasProgramadas">
+                        <table class="tablePerfil">
+                            <thead>
+                                <tr>
+                                    <th>Nombre</th>
+                                    <th>Folio</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Uzumaki Naruto</td>
+                                    <td>001</td>
+                                    <td><a href="">Ver</a></td>
+                                </tr>
+                                <tr>
+                                    <td>Sasuke Uchiha</td>
+                                    <td>002</td>
+                                    <td><a href="">Ver</a></td>
+                                </tr>
+                                <tr>
+                                    <td>Orochimaru</td>
+                                    <td>003</td>
+                                    <td><a href="">Ver</a></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="cajaRecientePerfil">
+                    <div class="barraEstructura">
+                        <h3>Próximo exp.</h3>
+                    </div>
+                </div>
+           </div>
         </div>
-        <div class="ultimoExpediente">
-          Haber que se me ocuerre
+        <div class="">
+
+        <p>Sistema de Pedro Antonio Ramírez, Alcántara. Es de exibichion</p>
         </div>
-        
     </div>
 <?php require "Views/Content/RecursoJS.php"; ?>
 </body>

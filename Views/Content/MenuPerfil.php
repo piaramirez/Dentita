@@ -12,5 +12,10 @@
             
                 </li>
             </div>
+            <div class="respnsiveMenu">
+                <div class="btnResponsive">
+                    <img src="<?php echo media() ?>menuH.png" alt="Ícono de menú responsivo">
+                </div>
+            </div>
         </div>
 </nav>

@@ -16,6 +16,9 @@
     --accioncerrar: #f44646;
     --contenido: #0212E6;
 }
+html{
+    overflow-x: hidden;
+}
 .bgSecundaio{
     background-color: var(--secundario);
 }
@@ -29,7 +32,7 @@
     border-right: none;
 
 }
-.barraEstructura h1{
+.barraEstructura h1, .barraEstructura h2, .barraEstructura h3, .barraEstructura h4, .barraEstructura h5, .barraEstructura h6{
     font-size: 26px;
     font-weight: bold;
     color: var(--secundario);
@@ -244,8 +247,8 @@ p, div{
 .itemmenu{
     width: 85%;
     display: flex;
-
 }
+
 .listMenu{
     list-style: none;
     display: flex;
@@ -254,6 +257,54 @@ p, div{
     margin: 0px auto;
     justify-content: flex-end;
 }
+.respnsiveMenu{
+    display: none;
+
+}
+@media only screen and (max-width: 600px) {
+    .listMenu{
+        display: none;
+    }
+    .Barralateral{
+        position: absolute;
+        width: 70%;
+        height: 100%;
+    }
+    .barraContraida{
+        width: 15%;
+    }
+    .contenedorEstructura{
+        width: 98%;
+        margin: 0 auto; 
+    }
+    .contenidoExp{
+        width: 85%!important;
+    }
+    .contenidoEstructura{
+        display: flex;
+        flex-flow: column wrap;
+    }
+    .logo{
+        width: 20%;
+    }
+    .logo a img{
+        width: 50px;
+    }
+    .respnsiveMenu{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        width: 80%;
+    }
+    .btnResponsive{
+        margin-right: 15px;
+        cursor: pointer;
+    }
+    .btnResponsive img{
+        width: 40px;
+        height: auto;
+    }
+} 
 .itemlist{
     padding: 10px;
     display: flex;
@@ -545,6 +596,7 @@ p, div{
 .mostrarContedidoCitasHoy{
     width: 90%;
     margin: 15px auto;
+    display: none;
 }
 .mostrarContedidoCitasHoy h2{
     font-size: 25px;
@@ -564,4 +616,74 @@ p, div{
     color: white;
     border-left: 1px solid white;
 
+}
+.tablePerfil tbody  tr td{
+    padding: 10px;
+    font-size: 14px;
+    border-bottom: 1px solid var(--secundario);
+    border-left: 1px solid white;
+    cursor: pointer;
+}
+.tablePerfil tbody  tr:hover{
+    background-color: var(--bontonesAccion);
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
+.puebasdd{
+    display: block;
+}
+.cardFooter{
+    width: 80%;
+    margin: 15px auto;
+    display: flex;
+    justify-content: center;
+}
+.cardFooter a, .tablePerfil tbody  tr td a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px;
+    background-color: var(--secundario);
+    border-radius: 10px;
+    margin: 10px 0;
+}
+.cardFooter a:hover{
+    background-color: var(--bontonesAccion);
+}
+.ultimoExpediente{
+    width: 95%;
+    margin: 15px auto;
+}
+.contenidoEstructuraExpedienteReciente{
+    width: 90%;
+    margin: 15px auto;
+    display: flex;
+    flex-flow: row wrap;
+    
+}
+.cajaRecientePerfil{
+    width: 70%; 
+}
+.cajaRecientePerfil:nth-child(2){
+    width: 30%;
+
+}
+@media only screen and (max-width: 600px) {
+    .cajaPerfil{
+        width: 98%;
+        margin: 10px auto;
+    }
+    .cajaPerfil:nth-child(1){
+    width: 98%;
+    margin: 10px auto;
+    }
+    .contenidoEstructuraExpedienteReciente{
+        display: flex;
+        flex-flow: column wrap;
+    }
+    .infoContenido{
+        overflow: hidden;
+    }
 }

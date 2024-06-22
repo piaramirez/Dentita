@@ -44,7 +44,18 @@ let felcha = document.getElementById('flechaDatosPerfil');
 let mContenido = document.getElementById('mostrarContedidoCitasHoy');
 
 felcha.addEventListener('click', function(){
-    alert('Mostrar citas del día');
+   let contraer = mContenido.classList.toggle('puebasdd');
+    if(contraer == true){
+        console.log('mostar contenido');
+        felcha.setAttribute('src', 'Assets/Recursos/Img/cerrarBTn.png');
+        felcha.style.backgroundColor = '#f44646';
+
+    }else{
+        console.log('ocultar contenido');
+        felcha.setAttribute('src', 'Assets/Recursos/Img/flechaAbajo.png');
+        felcha.style.backgroundColor = '#21b0ae';
+    
+    }
 });
 
 
