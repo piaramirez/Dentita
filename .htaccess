@@ -1,8 +1,7 @@
 Options -Indexes 
 RewriteEngine On
 
-#Produccion
-RewriteRule ^(.*)$ https://piaramirez.github.io/$1 [L,R=301]
+
 # Redirigir todas las solicitudes que no corresponden a archivos existentes o directorios existentes a index.php
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
